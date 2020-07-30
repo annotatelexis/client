@@ -180,7 +180,7 @@ function getDraftIfNotEmpty(state, annotation) {
 /**
  * Returns a list of draft annotations which have no id.
  *
- * @return {Draft[]}
+ * @type {(state: any) => Draft[]}
  */
 const unsavedAnnotations = createSelector(
   state => state,
