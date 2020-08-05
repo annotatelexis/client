@@ -469,6 +469,7 @@ export default function MarkdownEditor({
             });
           }}
           value={text}
+          rows={20}
         />
       )}
     </div>
